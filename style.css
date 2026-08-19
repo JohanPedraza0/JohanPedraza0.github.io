@@ -45,7 +45,7 @@ h2 {
 
 .content > p {
   margin: 0;
-  color: #cd8c57;
+  color: #c2bdba;
   font-size: 0.9rem;
   text-transform: uppercase;
   letter-spacing: 0.15em;
@@ -79,7 +79,7 @@ h2 {
   font-size: 1rem;
   font-weight: 600;
   padding: 10px 20px;
-  background: #d2d2d1;
+  background: #ffffff;
   border: 1px solid #ddd;
   border-radius: 100px;
   transition:
@@ -90,8 +90,8 @@ h2 {
 }
 
 #interests li:hover {
-  background: #000;
-  color: #fff;
+  background: #ccff99;
+  color: #000000;
   border-color: #000;
   transform: translateY(-2px);
 }
