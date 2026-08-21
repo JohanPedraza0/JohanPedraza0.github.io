@@ -96,9 +96,9 @@ h2 {
   transform: translateY(-2px);
 }
 
-button {
-  margin-left: auto;
+.top-button {
   display: block;
+  margin: 0 0 20px auto;
   padding: 12px 22px;
   font-size: 1rem;
   font-weight: 700;
@@ -110,7 +110,7 @@ button {
   box-shadow: 0 6px 14px rgba(0, 0, 0, 0.12);
 }
 
-button:hover {
+.top-button:hover {
   background: #b6f06d;
 }
 
