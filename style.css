@@ -96,30 +96,21 @@ h2 {
   transform: translateY(-2px);
 }
 
-#interests li.interest-button {
-  width: 100%;
-  background: transparent;
-  border: none;
-  border-radius: 0;
-  padding: 0;
-  cursor: default;
-}
-
-#interests li.interest-button button {
-  margin-top: 8px;
-  display: inline-block;
-  padding: 10px 18px;
-  font-size: 0.95rem;
+button {
+  margin-left: auto;
+  display: block;
+  padding: 16px 28px;
+  font-size: 1.2rem;
   font-weight: 700;
   border: 2px solid #000;
   border-radius: 12px;
   background: #ccff99;
   color: #000;
   cursor: pointer;
-  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 6px 14px rgba(0, 0, 0, 0.12);
 }
 
-#interests li.interest-button button:hover {
+button:hover {
   background: #b6f06d;
 }
 
