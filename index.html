@@ -17,6 +17,23 @@
       </ul>
     </nav>
 
+    <div class="home-clock">
+      <time id="current-time" datetime="">Loading time...</time>
+    </div>
+
+    <script>
+      const currentTime = document.getElementById("current-time");
+
+      function updateClock() {
+        const now = new Date();
+        currentTime.textContent = now.toLocaleTimeString();
+        currentTime.dateTime = now.toISOString();
+      }
+
+      updateClock();
+      setInterval(updateClock, 1000);
+    </script>
+
     <main>
       <div class="sidebar">
         <img class="sidebar-img"
@@ -33,7 +50,6 @@
           <ul>
             <li>Aztec History</li>
             <li>Sports</li>
-            <li>Diverse Music</li>
             <li>Clothes</li>
             <li>Traveling</li>
             <li>Old French Movies</li>
