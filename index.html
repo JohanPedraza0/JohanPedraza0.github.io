@@ -34,6 +34,32 @@
 
       updateClock();
       setInterval(updateClock, 1000);
+
+      const fireButton = document.querySelector(".top-button");
+      const fireEmojis = ["🔥", "✨", "💥", "🔥", "🎉"];
+
+      fireButton.addEventListener("click", () => {
+        const buttonRect = fireButton.getBoundingClientRect();
+
+        for (let i = 0; i < 18; i++) {
+          const emoji = document.createElement("div");
+          emoji.textContent = fireEmojis[i % fireEmojis.length];
+          emoji.className = "fire-emoji";
+
+          const x = (Math.random() - 0.5) * 180;
+          const y = (Math.random() - 0.5) * 120;
+
+          emoji.style.left = `${buttonRect.left + buttonRect.width / 2 + x}px`;
+          emoji.style.top = `${buttonRect.top + buttonRect.height / 2 + y}px`;
+          emoji.style.setProperty("--dx", `${(Math.random() - 0.5) * 120}px`);
+          emoji.style.setProperty("--dy", `${-40 - Math.random() * 80}px`);
+          emoji.style.animationDelay = `${i * 35}ms`;
+
+          document.body.appendChild(emoji);
+
+          setTimeout(() => emoji.remove(), 1100);
+        }
+      });
     </script>
 
     <main>
