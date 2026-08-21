@@ -95,6 +95,25 @@ h2 {
   border-color: #000;
   transform: translateY(-2px);
 }
+
+button {
+  margin-left: auto;
+  display: block;
+  padding: 16px 28px;
+  font-size: 1.2rem;
+  font-weight: 700;
+  border: 2px solid #000;
+  border-radius: 12px;
+  background: #ccff99;
+  color: #000;
+  cursor: pointer;
+  box-shadow: 0 6px 14px rgba(0, 0, 0, 0.12);
+}
+
+button:hover {
+  background: #b6f06d;
+}
+
 .sidebar-img {
   width: 100%;
   max-width: 760px;
