@@ -4,7 +4,16 @@
 
 body {
   margin: 0;
-  background: #c2ffb9;
+  background-color: #c2ffb9;
+  background-image:
+    linear-gradient(rgba(255, 255, 255, 0.2) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(255, 255, 255, 0.2) 1px, transparent 1px),
+    linear-gradient(135deg, #e6ffd9 0%, #c2ffb9 48%, #f4ffd9 100%);
+  background-size:
+    32px 32px,
+    32px 32px,
+    100% 100%;
+  background-attachment: fixed;
   color: #222;
   font-family: "Helvetica Neue", Arial, sans-serif;
 }
@@ -261,12 +270,13 @@ nav h1 {
 }
 
 .btn {
-  display: inline-block;
+  display: block;
+  width: 100%;
   padding: 20px 600px;
-  background-color: #ffffff; 
-  color: rgb(6, 6, 6);            
-  text-decoration: none;    
-  border-radius: 15px;       
+  background-color: #ffffff;
+  color: rgb(6, 6, 6);
+  text-decoration: none;
+  border-radius: 15px;
   font-family: sans-serif;
 }
 
