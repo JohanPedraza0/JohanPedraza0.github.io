@@ -252,6 +252,8 @@ nav h1 {
   list-style-type: none;
   padding: 80;
   margin: 80;
+  font-size: 1rem;
+  font-weight: 700;
 }
 
 .button-list li {
@@ -261,7 +263,7 @@ nav h1 {
 .btn {
   display: inline-block;
   padding: 20px 600px;
-  background-color: #f3f0f0; 
+  background-color: #ffffff; 
   color: rgb(6, 6, 6);            
   text-decoration: none;    
   border-radius: 15px;       
@@ -271,4 +273,6 @@ nav h1 {
 /* Add a hover effect */
 .btn:hover {
   background-color: #cfff95;
+  transform: translateY(-3px);
+  box-shadow: 0 10px 24px rgba(0, 0, 0, 0.12);
 }
