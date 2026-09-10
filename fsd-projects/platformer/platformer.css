@@ -1,6 +1,6 @@
 body {
   margin: 0px;
-  background-color: #202737;
+  background-color: #9bb1e4;
   min-height: 100vh;
   display: flex;
   justify-content: center;
@@ -8,10 +8,16 @@ body {
 }
 
 canvas {
-  background-color: lightblue;
+  background-color: #82d8f5;
+  background-image:
+    radial-gradient(ellipse 90px 34px at 18% 22%, rgba(255, 255, 255, 0.92) 0 58%, transparent 60%),
+    radial-gradient(ellipse 125px 42px at 23% 22%, rgba(255, 255, 255, 0.92) 0 58%, transparent 60%),
+    radial-gradient(ellipse 105px 38px at 76% 34%, rgba(255, 255, 255, 0.8) 0 58%, transparent 60%),
+    radial-gradient(ellipse 145px 48px at 82% 34%, rgba(255, 255, 255, 0.8) 0 58%, transparent 60%),
+    linear-gradient(180deg, #43b9ed 0%, #9ce4f7 62%, #d8f5f4 100%);
   margin: 20px;
   border-radius: 15px;
-  border: 5px solid rgba(118, 0, 233, 0.375);
+  border: 5px solid rgba(254, 252, 255, 0.375);
 }
 
 img {
