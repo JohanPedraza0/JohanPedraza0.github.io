@@ -45,5 +45,8 @@
 
 #hostGameBtn {
     background: #0080FF;
-    color: white;
+    color: rgb(213, 255, 181);
+}
+#background {
+    color:lightcyan
 }
