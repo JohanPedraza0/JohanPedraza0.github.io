@@ -30,7 +30,7 @@ const HUD_SETTINGS = {
 
 // setup variables
 const gravity = 0.5; // how much is subtracted from speedY each frame
-const playerJumpStrength = 12; // this is subtracted from the speedY each jump
+const playerJumpStrength = 13; // this is subtracted from the speedY each jump
 
 const projectileSpeed = 8; // the speed of projectiles
 const projectileDamage = 1; // how much damage a projectile does to an enemy

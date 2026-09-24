@@ -250,8 +250,9 @@ nav h1 {
 }
 .button-list {
   list-style-type: none;
-  padding: 80;
-  margin: 80;
+  width: 100%;
+  padding: 0;
+  margin: 0;
   font-size: 1rem;
   font-weight: 700;
 }
@@ -263,7 +264,8 @@ nav h1 {
 .btn {
   display: block;
   width: 100%;
-  padding: 20px 600px;
+  box-sizing: border-box;
+  padding: 20px;
   background-color: #ffffff;
   color: rgb(6, 6, 6);
   text-decoration: none;
